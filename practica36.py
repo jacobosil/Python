@@ -7,3 +7,12 @@ maximo = max(tuplas, key = lambda x: x[0])
 
 combinar = lambda nombre,apellido: nombre + " " + apellido
 print(combinar("jose", "perez"))
+
+iguales =  list(filter(lambda x: x[0] == x[1], tuplas))
+print(iguales)
+
+mayores = list(filter(lambda x: x[0] > x[1], tuplas))
+print(mayores)
+
+menores = list(filter(lambda x: x[0] < x[1], tuplas))
+print(menores)
